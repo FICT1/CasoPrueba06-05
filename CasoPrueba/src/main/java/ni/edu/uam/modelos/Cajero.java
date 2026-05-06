@@ -13,7 +13,7 @@ public class Cajero {
         System.out.println(p.mostrarPedido());
     }
 
-    
+
     public void enviarACocina(Pedido p, Cocina cocina) {
         System.out.println("Cajero envía pedido a cocina...");
         cocina.procesarPedido(p);
